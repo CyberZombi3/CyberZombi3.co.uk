@@ -4,7 +4,7 @@ Home [CyberZombi3](https://cyberzombi3.github.io/CyberZombi3.co.uk/)
 
 Hey guys so I've been looking at Registry monitoring and come up with a list of Registry hives / keys.
 
-
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/RegMonitoring/Images/RegKeyMonitoring2.png?raw=true)
 
 I wanted to write a short post about logging some of the more well known Registry keys used by attackers with Splunk. The keys listed towards the bottom of this post are used by Red Teams and real world attackers to maintain persistence and hide startup scripts etc. Splunk is a monitoring tool that's widely accepted as the best logging tool around however it comes at a cost. Splunk can be found here Splunk There are different packages available, Enterprise being the choice of large company's but they do also have a free version, providing logging per day does not exceed 500 meg if I remember correctly.
 “they do also have a free version providing logging per day does not exceed 500 meg.”
@@ -23,7 +23,11 @@ Further info can be found here - SplunkRegMonitoring
 
 Below you can see the results of the monitoring put in place above, the Splunk console shows that there has been a change made to the listed Registry items, this could include scripts to auto run a becon from Cobalt Strike or any number of other methods, they perhaps wouldn't be as obvious as the below items though, "yougothacked" kinda screams out at you :)
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/RegMonitoring/Images/RegKeyMonitoring.png?raw=true)
+
 Off the back of any results found you can of course configure alerting via email among others, you can also create a Dashboard containing various bits of information, an example can been seen here just below and also at the top of this post.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/RegMonitoring/Images/RegKeyMonitoring3.png?raw=true)
 
 The List
 
