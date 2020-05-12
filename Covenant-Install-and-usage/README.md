@@ -1,6 +1,8 @@
 # Covenant install and example usage
 
-Covenant Install & Example usage with PowerShell Launcher Updated: Oct 2, 2019 Hey Guys,
+Covenant Install & Example usage with PowerShell Launcher 
+
+Hey Guys,
 
 So I have been wanting to move away from Metasploit for a little while now and after seeing how our internal Red Team works it was apparent that I needed to open my eyes to more tools. Now I cant afford Cobalt Strike and its doubtful that I would even be granted a copy unless I managed to get it through work, this is due to the triage process that they have to adhere to. So after a little digging and some suggestions from the Red Team, Covenant seemed to be the way to go.
 
