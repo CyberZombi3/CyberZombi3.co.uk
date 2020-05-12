@@ -41,7 +41,7 @@ You may need to add an exception so go ahead and do that.
 
 After that you should see the Covenant landing page, happy days your all setup and ready to go, bang in a username and password.
 
-<img src="https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/initial%20logon.png">
+<img src="https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/initial%20logon.png" alt="hi" class="inline"/>
           
 So once logged in you will see all the following options, Listeners, Launchers among others. I’m not going to run through them all, you can look at them all yourself and get to grips with them in your own time.
 
