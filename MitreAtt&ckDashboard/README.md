@@ -13,6 +13,8 @@ Netmon logging enable (not really discussed below but I may cover it some other 
 A Splunk install
 A basic knowledge of Splunk .conf files will help
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/MitreAtt&ckDashboard/Images/Splunk%20Dashboard.png?raw=true)
+
 Right so that's what it kinda looks like at the moment ^^^ obviously there's work to be done yet and it probably wont look like this when its finished. I'm pretty lucky with my job at the moment as the Blue Team guy, I need to figure out detection methods for the Red Team guys and also real world attacks.
 
 This ties in nicely for me as I also want to be a Red Team guy / Pen Tester super cool dude, well I'm cool already.. that's what I tell myself anyway, so listen, in order for me to find detection methods it means I get to learn the attack methods which is pretty epic, for me to be able to get on with this at work as well as a hobby at home.
@@ -35,16 +37,27 @@ If basic cmds are performed during odd times i.e. whoami / tasklist / tree / sys
 
 so here are a couple of the C2C panels.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/MitreAtt&ckDashboard/Images/C2C.png?raw=true)
+
 Right if we wanted to create something like above, we fire up Splunk, Navigate over to the main search windows, select dashboards, then create new and then you would have a blank template, from there you go add panel in the top left corner, followed by the panel type on the right hand side.
 
 You then need select what type, for the above look and feel you want to go ahead and select Single Value (the search would also be slightly different for these as you would want to add a count to assist the graphic)
 
 sourcetype="wineventlog:windows powershell" OR EventCode=403 OR EventCode=400 OR EventCode=600 earliest=-1440m latest=now index=main | stats count as Total
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/MitreAtt&ckDashboard/Images/nopsearch2.png?raw=true)
+
 You can then go right ahead and pop in your search terms, for this I one I want to see if certain powershell event codes are being created (see above) *** it's note worthy too that I have blacklisted and white listed a whole bunch of event codes in the lab so it's less license intensive, makes it easier to find things too. If you have a whole bunch of automagic panels be sure to offset the refresh rates as your dashboard and system will just become unresponsive.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/MitreAtt&ckDashboard/Images/Nop%20Visual.png?raw=true)
+
 You can then confirm your visualization and also your formatting, I don't want to go into too much detail here, you can see that the options are pretty straight forward.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/MitreAtt&ckDashboard/Images/nopColour.png?raw=true)
+
 And that's all there is to it really, the events in a normal view would look like the below and take up a lot of space so unless you see something of interest you don't really want to be going through potentially 100's of logs.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/MitreAtt&ckDashboard/Images/nop.png?raw=true)
 
 
 I will pop a few searches just below that you could use to aid in your quest for finding badness, again these things need to be looked at from a bigger picture someone running a getmac or systeminfo or ip config alone is most likely nothing to worry about.
