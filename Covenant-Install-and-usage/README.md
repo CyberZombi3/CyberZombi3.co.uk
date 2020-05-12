@@ -45,6 +45,10 @@ Once you’re at this point you should see that Covenant is running and if you n
 
 You may need to add an exception so go ahead and do that.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/cert1.png?raw=true)
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/cert3.png?raw=true)
+
 After that you should see the Covenant landing page, happy days your all setup and ready to go, bang in a username and password.
 
 ![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/initial%20logon.png?raw=true)
@@ -53,9 +57,23 @@ So once logged in you will see all the following options, Listeners, Launchers a
 
 So what I wanted to go through were the basic steps to get a Grunt running using the PowerShell Launcher, so first we need to create a Listener. Fill in the details, so give it a name and add in your connect address ip, this is the ip of your attacking system.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Listener.png?raw=true)
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Listener2.png?raw=true)
+
 Next we need to create the Launcher, this time I’m going with the PowerShell Launcher, fill in the options so select your Listener etc etc and what I’m going to do is take hit the Generate button and then copy the Encoded command into a custom script I have. There are multiple ways from here so you could host your launcher from within Covenant, you can down load it and send however you see fit, it’s really up to you.
 
-Encoded command This is then pasted into my script.
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Launcher.png?raw=true)
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Launcher2.png?raw=true)
+
+Encoded command 
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Encoded.png?raw=true)
+
+This is then pasted into my script.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Script.png?raw=true)
 
 And that’s about it really, as suggested above how you have your victim connect to you is personal preference, mostly this would be via a link or phishing email of course.
 
