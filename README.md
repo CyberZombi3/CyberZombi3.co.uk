@@ -228,9 +228,13 @@ The List
 As promised please see below for a list of Registry hives / keys that you could use as a starting point, there are more... you may think there should be less or maybe even more. That's always going to come down to a matter of opinion. I hope this helps in some way if your not familiar with Splunk or if you are just looking for a starting place for Registry monitoring.
 
 HKCU\Environment
+
 HKCU\Control Panel\Desktop\Scrnsave.exe
+
 HKCU\Software\Microsoft\Command Processor\Autorun
+
 HKCU\Software\Microsoft\Internet Explorer\Desktop\Components
+
 HKCU\Software\Microsoft\Internet Explorer\Explorer Bars
 HKCU\Software\Microsoft\Internet Explorer\Extensions
 HKCU\Software\Microsoft\Internet Explorer\UrlSearchHooks\Server\Install\Software\Microsoft\Windows\CurrentVersion\Run
