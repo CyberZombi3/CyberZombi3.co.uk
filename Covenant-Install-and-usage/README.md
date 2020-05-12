@@ -77,15 +77,27 @@ This is then pasted into my script.
 
 And that’s about it really, as suggested above how you have your victim connect to you is personal preference, mostly this would be via a link or phishing email of course.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Grunts.png?raw=true)
+
 So for this example I just ran the script on my victim system, again this can be hosted via Covenant or emails etc.
+
+![Images](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Grunt%20Activation.png?raw=true)
 
 The connection is then activated.
 
+![Images](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Grunt%20connection.png?raw=true)
+
 Opening the Grunt provides a whole host of information as seen below.
+
+![Images](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Gruntdetails.png?raw=true)
 
 Then the magic is here in the Interact tab, I have just ran a quick whoami but there are all sorts of tasks already built in and I know that Rastamouse and Cobbr are working hard to create all sorts of awesome new features.
 
+![Images](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Grunt%20Interaction.png?raw=true)
+
 If you have read any of my previous posts you will know that I was working on a Splunk Mitre Att&ck detection app, it looks like the image below and can be downloaded here -> https://github.com/CyberZombi3/Mitre-Attack-Monitoring this is free if you wish to take a look. It’s very high level and would need tuning etc for any work environment however as you can see it would pick up the above method of attack. This should not however be relied on to detect any and all methods of attack.
+
+![Images](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/MitreAttackMonitoring.png?raw=true)
 
 So I hope this has been of use to someone as always if you want to ask any questions you can find me @CyberZombi3 on the Twitter.
 
