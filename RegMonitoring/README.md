@@ -15,8 +15,6 @@ So below I wanted to provide a few examples of config that you would add into th
 Below are examples of registry key stanza's that you would create for all the listed Registry keys there may be some adjustments needed. These can be modified further however in the examples below, the stanza we start with states the desired source type name = Registry, Splunk also monitors for all processes that could potentially make a change to the Registry, an example of this would be regedit.exe however were going to monitor all processes hence the proc = .* You also have the hive of the Registry (location), and the type of changes you wish to monitor I.E. creation / deletion renaming or setting.
 You can also have Splunk complete a baseline of the Registry, (this can degrade the performance on a system if completed regularly) if you state = 1 this will complete a baseline once per day (this is default) and finally you add the Index you wish to log the events too, default on most systems would be "Main" however I would suggest having a separate index for these logs.
 
-Further info can be found here - SplunkRegMonitoring
-
 [WinRegMon://Registry] proc = .* hive = \\REGISTRY\\USER\\.*\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\.* type = create|delete|set|rename baseline = 1 index = main
 
 [WinRegMon://Registry] proc = .* hive = \\REGISTRY\\MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\\CURRENTVERSION\\RUN\\.* type = create|delete|set|rename baseline = 1 index = main
