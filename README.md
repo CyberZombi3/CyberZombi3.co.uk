@@ -10,4 +10,16 @@ Covenant - Install and Example Usage [Covenant Install & Usage](Covenant-Install
 
 PhishMe - Phishing Example Usage [Phishing Example Usage](PhishMe)
 
+MitreAtt&ckApp - My previous Splunk Dashboard converted to an app [MitreAtt&ckApp]
+
+MitreAtt&ck Splunk Dashboard - [MitreAtt&ckDaskboard]
+
+Att&ck Discover & BlueTeam - A quick pen test with monitoring results [Att&ckDiscoverBlueTeam]
+
+Blue Team Reg Monitoring - Reg Keys to monitor [RegMonitoring]
+
+Enjoy
+
+CyberZombi3
+
 
