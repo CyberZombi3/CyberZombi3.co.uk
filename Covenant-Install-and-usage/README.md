@@ -33,7 +33,13 @@ okay so lets get started, first fire up your Kali box and run the following comm
     dotnet build
     dotnet run
 
-That should look something like the below, and by the end look something like this.
+That should look something like the below,
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/Install.png?raw=true)
+
+and by the end look something like this.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/Covenant-Install-and-usage/Images/running.png?raw=true)
 
 Once you’re at this point you should see that Covenant is running and if you navigate over to https://0.0.0.0:7443 you should be good to go. Note that the ip is 0.0.0.0 as Covenant is being ran locally, if this was in AWS for example the ip would be different.
 
