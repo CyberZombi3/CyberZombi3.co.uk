@@ -1,4 +1,4 @@
-Home [CyberZombi3](CyberZombi3.co.uk)
+Home [CyberZombi3](https://cyberzombi3.github.io/CyberZombi3.co.uk/)
 
 # Covenant install and example usage
 
