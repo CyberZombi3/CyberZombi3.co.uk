@@ -1,3 +1,4 @@
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 ## Welcome Along To CyberZombi3.co.uk
 
 
