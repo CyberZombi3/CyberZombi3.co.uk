@@ -6,6 +6,8 @@ So I'm a IT Security Analyst with many years experience in the IT industry, Alwa
 
 Blog Links - 
 
+Offensive Defence - Think early warning system [Offensive Defence](Offensive Defence)
+
 Covenant - Install and Example Usage [Covenant Install & Usage](Covenant-Install-and-usage)
 
 PhishMe - Phishing Example Usage [Phishing Example Usage](PhishMe)
