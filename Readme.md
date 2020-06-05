@@ -1,3 +1,6 @@
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+Home [CyberZombi3](https://cyberzombi3.github.io/CyberZombi3.co.uk/)
+
 Offensive Defence
 
 So welcome along to our joint blog with @_RastaMouse @Rythmstick and @Furby, I’m @CyberZombi3 we hope to blog about all levels of Red Team and Blue teaming, our combined skillsets, areas of expertise and desire to gain knowledge from one another should provide a little something for everyone so with that said this is my first blog here, which can also can be found at  www.cyberzombi3.co.uk
